@@ -1,13 +1,7 @@
-# Test
-Test
-## test
-
+# 숙제 안하면 라면만
+<hr/> 
+## 자바스크립트 입문
+#### part1, part2(12,13,14)
 <hr/>
-
-<pre><code>
-김
-민
-성
-</code></pre>
-
-**aa**
+## Jquery 인터랙티브 
+#### page chapter2까지 ( 미션도전 제외 )
