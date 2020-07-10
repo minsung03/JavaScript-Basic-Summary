@@ -5,5 +5,6 @@
 #### part1, part2(12,13,14)   
 
 <hr/>
-## Jquery 인터랙티브    
-#### page chapter2까지 ( 미션도전 제외 )   
+
+## Jquery 인터랙티브       
+#### page chapter2까지 ( 미션도전 제외 )    
