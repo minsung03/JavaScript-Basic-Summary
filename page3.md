@@ -85,3 +85,20 @@ ex)
 
 <hr />
 
+### switch 조건문
+
+ switch 조건문의 기본 형태
+ 
+      switch(<비교할 값>) {
+            case <값> :
+                 <문장>
+                 break;
+            case <값> :
+                 <문장>
+                 break;
+            default:
+                 <문장>
+                 break;
+     }
+     
+     
