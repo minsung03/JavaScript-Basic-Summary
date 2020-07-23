@@ -2,39 +2,89 @@
 
 ### if 조건문
 
-let input = 32;
+if문은 보통 이런식으로 나타낸다.
 
-if ( input % 2 == 0 ) { // input을 2로 나누었을 때 나머지가 0이라면 짝수 출력
+if (<불 표현식>) {
 
-  console.log("짝수");
-
-}
-
-if( input % 2 == 1 ) { // input을 2로 나누었을 때 나머지가 1이라면 홀수 출력
-
-console.log("홀수");
+  // 실행되는 문장이 한 행이라면 중괄호를 생략할 수 있다. 하지만 그렇지 않다면 중괄호로 감싸야 한다.
 
 }
 
--> 짝수
+### if else 조건문
+
+if else 조건문의 형식은 보통 이렇습니다.
+
+if(<불 표현식>) {
+
+  // 불 표현식이 참일 때 실행할 문장
+
+}else{
+
+  // 불 표현식이 거짓일 때 실행할 문장
+
+}
+  
+<hr />
+
+### 중첩조건문
+
+if (불 표현식) {
+
+if (불 표현식) {
+
+    문장;
+
+}
+
+} else {
+
+if(불 표현식) {
+
+  문장;
+
+} else {
+
+    문장;
+
+  }
+
+}
 
 <hr />
 
-### 현재 시간 구하기
+### if else if 조건문
 
-let Date = new Date();
+if(<불 표현식>) {
+  
+} else if {
+  
+ } else {
+  
+ }
+ 
+※ if else if 는 중복되지 않는 세가지 이상의 조건을 구분할때 사용합니다.
 
-console.log(date.getFullYear());
+ex)
 
-console.log(date.getMonth());
+ let Date = new Date();
+ 
+ let hours() = date.getHours();
+ 
+ if(hours < 11) {
+ 
+  console.log("아침 먹을 시간");
+ 
+ } else if {
+  
+  console.log("점심 먹을 시간")
+ 
+ } else {
+ 
+ console.log("저녁 먹을 시간")
+ 
+ }
+ 
+-> 점심 먹을 시간
 
-※ getMonth는 0부터 11까지 반환되므로 1을 더해야한다.
-
-console.log(date.getDay());
-
-console.log(date.getHours());
-
-console.log(date.getMinutes());
-
-console.log(date.getSeconds()); 
+<hr />
 
