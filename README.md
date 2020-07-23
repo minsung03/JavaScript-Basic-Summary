@@ -1026,3 +1026,4 @@ const <식별자> = <자료>
 -불로 변환할 때 false로 변환되는 것은 O. NaN, ""[빈 문자열], null, undefined이다.
 
 
+#김
